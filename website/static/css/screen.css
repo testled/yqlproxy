@@ -1,0 +1,111 @@
+#header {
+	background: #ccc;
+	border-bottom: 1px solid #999;
+}
+
+	#header h1 {
+		margin: 12px;
+	}
+
+	#header #authbox {
+		text-align: right;
+		margin-top: 12px;
+		margin-right: 12px;
+	}
+	
+#nav {
+	background: #eee;
+	border-bottom: 1px solid #999;
+}
+
+	#nav li {
+		float: left;
+		list-style: none;
+		padding: 12px;
+		margin: 0;
+	}
+	
+		#nav li.active {
+			background: #ddd;
+		}
+	
+	#nav li:hover {
+		background: #ccc;
+	}
+	
+	#nav li ul {
+		display: none; /* TODO: Fix this to add the dropdown menus to the nav. */
+	}
+	
+#breadcrumb {
+}
+
+	#breadcrumb ul {
+		margin: 12px;
+	}
+
+	#breadcrumb li {
+		float: left;
+		list-style: none;
+		padding-bottom: 12px;
+		padding-right: 4px;
+		margin: 0;
+	}
+	
+#content {
+	
+}
+	
+	#content p, #content h2, #content table, #content h3 {
+		margin: 12px;
+	}
+
+	#content h3 {
+		font-size: 16px;
+	}
+
+/* Form stuff */
+#content form label {
+	width: 100px;
+	display: block;
+	float: left;
+}
+
+	#content form input, #content form textarea {
+		width: 400px;
+	}
+	
+	#content form .form-submit {
+		width: 80px;
+		margin-left: 100px;
+	}
+	
+	#content form .wysiwyg {
+		margin-left: 100px;
+		width: 394px !important ; /* Hack */
+	}
+
+
+#footer {
+	background: #eee;
+	border-top: 1px solid #999;	
+}
+
+	#footer li {
+		float: left;
+		list-style: none;
+		padding: 12px;
+		margin: 0;
+	}
+
+	#footer li:hover {
+		background: #ccc;
+	}
+
+	#footer .right_footer {
+		text-align: right;
+	}
+
+	#footer p {
+		margin: 12px;
+	}
